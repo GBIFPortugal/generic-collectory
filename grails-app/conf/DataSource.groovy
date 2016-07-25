@@ -19,8 +19,8 @@ environments {
             dialect = org.hibernate.dialect.MySQL5InnoDBDialect
             dbCreate = "update" // one of 'create', 'create-drop','update'
             url = "jdbc:mysql://localhost:3306/collectory?autoReconnect=true&connectTimeout=0"
-            username = "root"
-            password = ""
+            username = "collectory"
+            password = "collectory"
             //logSql = true
         }
     }

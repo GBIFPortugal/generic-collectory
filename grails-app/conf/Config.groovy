@@ -21,7 +21,7 @@ println "default_config = ${default_config}"
 \******************************************************************************/
 if (!skin.layout) {
     //skin.layout = 'ala2'
-    skin.layout = 'generic'
+    skin.layout = 'generic-pt'
 }
 if (!skin.orgNameLong) {
     skin.orgNameLong = "Atlas of Living Australia"

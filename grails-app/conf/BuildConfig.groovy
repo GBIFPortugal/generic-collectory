@@ -40,5 +40,6 @@ grails.project.dependency.resolution = {
         build ":release:3.0.1"
         runtime ":collectory:1.5.4"
         build ":tomcat:7.0.54"
+        compile ":lang-selector:0.3"
     }
 }
