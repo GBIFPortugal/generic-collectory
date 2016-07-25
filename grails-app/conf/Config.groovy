@@ -238,7 +238,7 @@ environments {
     }
 }
 
-logging.dir = (System.getProperty('catalina.base') ? System.getProperty('catalina.base') + '/logs'  : '/var/log/tomcat')
+//logging.dir = (System.getProperty('catalina.base') ? System.getProperty('catalina.base') + '/logs'  : '/var/log/tomcat6')
 
 log4j = {
     appenders {
