@@ -182,6 +182,44 @@ body > #main-content {
     margin-top: 0px !important;
 }
 
+#main-content > container > a, a:link, a:active{
+  color: #007d24;
+}
+
+#main-content > container > a, a:hover{
+  color: #005418;
+}
+
+.filter-buttons h2 a {
+    color:#007d24;
+    text-decoration: none;
+}
+
+.filter-buttons h2 a:hover, .filter-buttons h2 a:active, .filter-buttons h2 a:hover span, .filter-buttons h2 a:active span {
+    color:#005418;
+    text-decoration: none;
+}
+
+.filter-buttons h2 a:hover, .buttons h2 a:active, .buttons h3 a:hover, .buttons h3 a:active, .sorry h2 a:hover, .sorry h2 a:active, .sorry h3 a:hover, .sorry h3 a:active{
+    border-color:#005418;
+    -o-box-shadow: 4px 4px 0px #dd3102;
+    -icab-box-shadow: 4px 4px 0px #dd3102;
+    -khtml-box-shadow: 4px 4px 0px #dd3102;
+    -moz-box-shadow: 4px 4px 0px #007d24;
+    -webkit-box-shadow: 4px 4px 0px #dd3102;
+    box-shadow: 4px 4px 0px #005418;
+}
+
+
+.breadcrumb > li > a, a:link, a:active {
+    color: #007d24;
+}
+
+.breadcrumb > li > a:hover {
+    color: #005418;
+}
+
+
 .lowerbar{
     margin-left: 6% !important;
     margin-right: 6% !important;
@@ -285,3 +323,15 @@ body > #main-content {
     color: white;
 
 }
+
+
+@media (min-width: 1200px) {
+  .span12 {
+    width: 970px;
+  }
+}
+
+.tab-content{
+  margin-bottom: 15px !important;
+}
+
