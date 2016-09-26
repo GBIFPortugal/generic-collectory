@@ -182,7 +182,7 @@ body > #main-content {
     margin-top: 0px !important;
 }
 
-#main-content > container > a, a:link, a:active{
+#main-content > container > a, a:link, a:active, a:visited{
   color: #007d24;
 }
 
@@ -211,11 +211,11 @@ body > #main-content {
 }
 
 
-.breadcrumb > li > a, a:link, a:active {
+.breadcrumb > li > a, a:link, a:active, a:visited{
     color: #007d24;
 }
 
-.breadcrumb > li > a:hover {
+.breadcrumb > li > a:hover{
     color: #005418;
 }
 
