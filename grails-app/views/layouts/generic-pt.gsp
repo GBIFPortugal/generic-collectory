@@ -67,6 +67,17 @@
     </r:script>
     <r:layoutResources/>
     <g:layoutHead />
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-41841769-4', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </head>
 <body class="${pageProperty(name:'body.class')?:'nav-collections'}" id="${pageProperty(name:'body.id')}" onload="${pageProperty(name:'body.onload')}">
 
@@ -114,10 +125,10 @@
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse ala-collapse">
         <ul class="nav pull-right" id="navbar1">
-          <li><a href="/index.html"><g:message code="ala.menu.home"/></a></li>
-          <li><a href="/generic-hub"><g:message code="ala.menu.occurrences"/></a></li>
+          <li><a href="http://dados.gbif.pt/index.html"><g:message code="ala.menu.home"/></a></li>
+          <li><a href="http://dados.gbif.pt/generic-hub"><g:message code="ala.menu.occurrences"/></a></li>
           <!--<li><a href="/species.html"><g:message code="ala.menu.data"/></a></li>-->
-          <li><a href="/generic-hub/explore/your-area?default=true"><g:message code="ala.menu.location"/></a></li>
+          <li><a href="http://dados.gbif.pt/generic-hub/explore/your-area?default=true"><g:message code="ala.menu.location"/></a></li>
           <li><a href="/collectory/datasets"><g:message code="ala.menu.datasets"/></a></li>
           <li><a href="/collectory"><g:message code="ala.menu.publishers"/></a></li>
         </ul>
